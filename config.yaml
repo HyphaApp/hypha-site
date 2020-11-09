@@ -28,7 +28,7 @@ outputs:
 params:
   contact: "info@example.org"
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
-  description: "The zen theme for Hugo example site."
+  description: "Submission management software for open calls."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
@@ -38,5 +38,14 @@ params:
   imageMaxWidth: 400
   mobileMenu: true
   poweredby: false
+  realfavicongenerator: true
+  safariPinnedColor: "#ffffff"
   sidebar: false
   submitted: false
+  themeColor: "#ffffff"
+
+menu:
+  main:
+    - Name: "Home"
+      weight: -10
+      URL: "/"
