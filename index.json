@@ -1,7 +1,7 @@
 {
     "version" : "https://jsonfeed.org/version/1",
-    "title" : "Hypha.app",
-    "description": "Recent content on Hypha.app",
+    "title" : "Home on Hypha.app",
+    "description": "Recent content in Home on Hypha.app",
     "home_page_url" : "https://www.hypha.app/",
     "feed_url" : "https://www.hypha.app/index.json",
     "icon" : "https://www.hypha.app/apple-touch-icon.png",
