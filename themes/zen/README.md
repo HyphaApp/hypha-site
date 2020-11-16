@@ -22,12 +22,14 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 * [Screenshots](#screenshots)
 * [Configuration](#configuration)
 * [Customise](#customise)
+* [Render hook templates](#render-hook-templates)
 * [Multilingual](#multilingual)
 * [Search](#search)
 * [Contact form](#contact-form)
 * [Dates](#dates)
 * [Podcast](#podcast)
 * [Shortcodes](#shortcodes)
+* [Content security policy headers](#Content-security-policy-headers)
 * [Choose between using jQuery or Umbrella JS](#choose-between-using-jquery-or-umbrella-js)
 * [Use Gulp to lint Sass and JavaScript](#use-gulp-to-lint-sass-and-javascript)
 * [Getting help](#getting-help)
@@ -154,6 +156,7 @@ Configurations parameters for the sites config file, in yaml format. All the "pa
 baseurl: "https://example.org/"
 title: "SiteTitle"
 theme: "zen"
+languageCode: "en-GB"       # Set your language code (only needed for none multilingual sites).
 
 params:
   contact: "info@example.org"
@@ -234,14 +237,14 @@ Then set the "realfavicongenerator" param to true to add the needed meta tags. A
 
 ### Layouts
 
-To customise a layout included in the zen theme, copy it to the root layout directory and edit it there. Make sure to maintain the directory structure inside the layouts directory. 
+To customise a layout included in the zen theme, copy it to the root layout directory and edit it there. Make sure to maintain the directory structure inside the layouts directory.
 
 Add any new layouts to the root layout directory as well. This way they will not be overwritten when updating the theme.
 
 
 #### Menu and sidebar layouts
 
-If a Hugo main menu is defined (.Sites.Menu.main) the menu template will use it to build a navigation menu. If not, the template will automatically add entries for the home page, each root page and each section, in that order. 
+If a Hugo main menu is defined (.Sites.Menu.main) the menu template will use it to build a navigation menu. If not, the template will automatically add entries for the home page, each root page and each section, in that order.
 
 If the default sidebar is activated it will display each section with all its pages listed below.
 
@@ -266,7 +269,16 @@ By setting the Hugo environment variable to "development" (default when running 
 
 Modern CSS grid is the easiest and cleanest way to layout your pages.
 
-The CSS grid layout are in `assets/sass/layouts/_layouts.scss`. A lot can be done by just reordering "grid-template-rows". 
+The CSS grid layout are in `assets/sass/layouts/_layouts.scss`. A lot can be done by just reordering "grid-template-rows".
+
+
+## Render hook templates
+
+### Add anchor links to headers
+
+An example render hook template for templates will add anchor links to all headers. To activate it copy the file `~/theme/zen/layouts/_default/_markup/render-heading.html.example` to `layouts/_default/_markup/render-heading.html`.
+
+Needed styles are in the `_zen.scss` file.
 
 
 ## Multilingual
@@ -279,18 +291,23 @@ The language selector will link to a translation of the current page if it exist
 
 For "rtl" languages add a `languageDirection` parameter to the language configuration. If not added it will default to "ltr".
 
+Add a `languageCode` parameter to each language as well, that is used to set the correct language attribute in the `html` tag and in feeds. The root `languageCode` is then not needed. If not set the language key (e.g. "en") will be used.
+
 ```
 languages:
   sv:
     weight: 1
     languageName: "Svenska"
+    languageCode: "sv-SE"
   en:
     weight: 2
     languageName: "English"
+    languageCode: "en-GB"
   ar:
     weight: 3
     languageName: "العربية"
     languageDirection: "rtl"
+    languageCode: "ar"
 ```
 
 
@@ -377,21 +394,22 @@ podcast:
 
 ## Shortcodes
 
-### Contact
-
-Insert a html5 contact form, see more above.
+### Audio and Video
 
 ```
-{{< contact >}}
+{{< audio src="/audio/audio.mp3" class="something" >}}
+
+{{< video src="/video/video.mp4" class="something" >}}
 ```
 
-### Figure
+Possible parameters are:
 
-Zen comes with a improved version of the built in "figure" shortcut.
+* src
+* class
+* preload (none/metadata/auto, default metadata)
+* width (only video)
 
-* You can set a max width for images with parameter "imageMaxWidth". 
-* If width and height is not set the real dimensions of the image will be used.
-* If only width or height is set the other value will be proportionally calculated.
+The audio and video tags will be wrapped with a figure tag.
 
 
 ### Clear
@@ -409,22 +427,55 @@ blablabla # Displayed below of the image.
 ```
 
 
-### Audio and Video
+### Contact
+
+Insert a html5 contact form, [see more above](#contact-form).
 
 ```
-{{< audio src="/audio/audio.mp3" class="something" >}}
-
-{{< video src="/video/video.mp4" class="something" >}}
+{{< contact >}}
 ```
+
+
+### Figure and Img
+
+Zen comes with a improved version of the built in "figure" shortcut and a very similar "img" shortcode.
+
+```
+{{< figure src="/images/image.jpg" alt="Example image." caption="Lorem ipsum dolor sit amet." >}}
+
+{{< img src="/images/image.jpg" alt="Example image." size="600x" >}}
+```
+
 
 Possible parameters are:
 
-* src
+* alt
+* attr (only figure)
+* attrlink (only figure)
+* caption (only figure)
 * class
-* preload (none/metadata/auto, default metadata)
-* width (only video)
+* height
+* link (only figure)
+* size (only works if image is inside /assets dir)
+* src
+* title (only figure)
+* width
 
-The audio and video tags will be wrapped with a figure tag.
+Only "src" is none optional but you really should set "alt" as well.
+
+* If the images is inside the /assets dir and "size" is set the shortcode will use the resize command.
+* You can set a max width for images with parameter "imageMaxWidth". Only used for images where size, width and height is not set.
+* If width and height is not set the real dimensions of the image will be used.
+* If only width or only height is set the other value will be proportionally calculated.
+
+
+### Search
+
+Creates a search page for the site, [see more above](#search).
+
+```
+{{< search >}}
+```
 
 
 ### Wrapper
@@ -467,6 +518,10 @@ The **content** that should be wrapped. Some more content.
 </div>
 ```
 
+
+## Content security policy headers
+
+Includes tracking code for Matomo or Google in a way that supports Content security policy headers. Read more in my blog post [Content security policy headers when using Matomo or Google analytics](https://xdeb.org/post/2020/01/14/content-security-policy-headers-when-using-matomo-or-google-analytics/).
 
 ## Choose between using jQuery or Umbrella JS
 
