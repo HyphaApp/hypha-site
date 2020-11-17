@@ -82,7 +82,7 @@ Hypha uses the [BSD 3-clause](./LICENSE) license.
 
 ## Deploying Hypha
 
-To support organisations having ownership over their data, Hypha can be deployed [on Heroku](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Heroku), [using Docker](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Docker), or [ with your own server](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Standalone-App).
+To support organisations having ownership over their data, Hypha can be deployed [on Heroku](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Heroku), [using Docker](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Docker), or [with your own server](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Standalone-App).
 
 # Who uses Hypha?
 
