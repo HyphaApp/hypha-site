@@ -5,10 +5,6 @@ description: "Hypha - the open source submission management software for open ca
 
 ---
 
-# WHAT TO DO !
-the collection and review of applications or submissions openly and efficiently.
-
-
 # What is Hypha?
 
 Hypha is an submission management platform for open funding calls. Funding organisations can manage the full funding application process - from creating a fund to ongoing project invoicing.
