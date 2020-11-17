@@ -61,6 +61,7 @@ with thanks to all the people who have contributed code & UX design to Hypha: <3
 - [Maxwell Pearl](https://maxwellpearl.com/)
 - [Throneless Technology](https://throneless.tech/)
 - [Psycle](https://psycle.com/)
+- [Simply Secure](https://simplysecure.org/)
 
 # Support Hypha
 
