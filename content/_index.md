@@ -93,12 +93,13 @@ Hypha is maintained by:
 - [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 - [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
 
-with thanks to all the people who have contributed code & UX design to Hypha: <3
+With thanks to all the people who have contributed code & UX design to Hypha: <3
 - [Torchbox](https://www.torchbox.com/)
 - [Remote Inning](https://www.remoteinning.com/)
 - [Maxwell Pearl](https://maxwellpearl.com/)
 - [Throneless Technology](https://throneless.tech/)
 - [Psycle](https://psycle.com/)
+- [Simply Secure](https://simplysecure.org/)
 
 # Support Hypha
 
