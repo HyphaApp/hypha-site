@@ -86,4 +86,4 @@ You can sponsor specific issues via [Issuehunt](https://issuehunt.io/r/OpenTechF
 
 This is the repo for the [Hypha site](https://www.hypha.app/).
 
-[Hypha code](https://github.com/HyphaApp/hypha)
+[Hypha code](https://github.com/OpenTechFund/hypha)
