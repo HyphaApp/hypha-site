@@ -131,4 +131,4 @@ Hopefully, Hypha helps it's users do the same.
 
 # License
 
-[BSD 3-clause](./LICENSE)
+[BSD 3-clause](https://github.com/HyphaApp/hypha/blob/main/LICENSE)
