@@ -40,7 +40,7 @@ All we ask is you contribute the improvements back to the project so others can 
 Hypha is built with:
 - [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/)
 and deployed with:
-- [Heroku](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Heroku), [Docker](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Docker), or [your own server](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Standalone-App).
+- [Heroku](https://github.com/HyphaApp/hypha/wiki/Deployment:-Heroku), [Docker](https://github.com/HyphaApp/hypha/wiki/Deployment:-Docker), or [your own server](https://github.com/HyphaApp/hypha/wiki/Deployment:-Standalone-App).
 
 # Who uses Hypha?
 
@@ -87,4 +87,4 @@ You can sponsor specific issues via [Issuehunt](https://issuehunt.io/r/OpenTechF
 
 This is the repo for the [Hypha site](https://www.hypha.app/).
 
-[Hypha code](https://github.com/OpenTechFund/hypha)
+[Hypha code](https://github.com/HyphaApp/hypha)

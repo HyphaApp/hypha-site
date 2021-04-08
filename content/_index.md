@@ -65,8 +65,7 @@ All we ask is you contribute these improvements back to the project so others ca
 
 Hypha itself is built on many open source software projects. We use [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/).
 
-View our [Roadmap](https://github.com/OpenTechFund/hypha/wiki/Roadmap) for upcoming features and enhancements.
-
+View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
 ## Building Hypha
 
@@ -74,11 +73,11 @@ Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [devel
 
 Hypha uses the [BSD 3-clause](./LICENSE) license.
 
-[![<OpenTechFund>](https://circleci.com/gh/OpenTechFund/hypha.svg?style=shield)](https://circleci.com/gh/OpenTechFund/hypha)
+[![<HyphaApp>](https://circleci.com/gh/HyphaApp/hypha.svg?style=shield)](https://circleci.com/gh/HyphaApp/hypha)
 
 ## Deploying Hypha
 
-To support organisations having ownership over their data, Hypha can be deployed [on Heroku](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Heroku), [using Docker](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Docker), or [with your own server](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Standalone-App).
+To support organisations having ownership over their data, Hypha can be deployed [on Heroku](https://github.com/HyphaApp/hypha/wiki/Deployment:-Heroku), [using Docker](https://github.com/HyphaApp/hypha/wiki/Deployment:-Docker), or [with your own server](https://github.com/HyphaApp/hypha/wiki/Deployment:-Standalone-App).
 
 # Who uses Hypha?
 
@@ -123,12 +122,13 @@ You can sponsor specific issues via [Issuehunt](https://issuehunt.io/r/OpenTechF
 [![Find and sponsor issues](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/OpenTechFund/hypha)
 
 # Why "Hypha"?
+
 **[Hyphae](https://en.wikipedia.org/wiki/Mycorrhizal_network):** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources.
 
 Hopefully, Hypha helps it's users do the same.
 
 * Copyright (C) 2020 - Open Technology Fund
 
-## License
+# License
 
 [BSD 3-clause](./LICENSE)
