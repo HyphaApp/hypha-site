@@ -7,9 +7,11 @@ description: "Hypha - the open source submission management software for open ca
 
 # Hypha
 
-* Docs: https://github.com/HyphaApp/hypha/wiki
-* Community forum (Discourse): https://we.hypha.app/
-* Chat (Zulip): https://chat.hypha.app/
+
+* [Documentation](https://github.com/HyphaApp/meta)
+* ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
+* [![Discource forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
+* [![Zulip chat](https://img.shields.io/badge/chat-chat.hypha.app-brightgreen)](https://chat.hypha.app/)
 
 
 ## What is Hypha?
