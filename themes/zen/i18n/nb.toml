@@ -49,6 +49,9 @@ other = "på"
 [string_recent_content]
 other = "Siste innhold"
 
+[string_see_also]
+other = "See also"
+
 [js_required]
 other = "Du må ha skrudd på Javascript for å bruke denne funksjonen."
 
@@ -90,3 +93,15 @@ other = "Hopp over om du er menneske."
 
 [lang_select_title]
 other = "Velg språk"
+
+[cookieconsent_message]
+other = "This website uses non essential cookies for tracking and analytics that you can accept or decline."
+
+[cookieconsent_accept]
+other = "Accept tracking"
+
+[cookieconsent_decline]
+other = "Decline tracking"
+
+[privacy_policy]
+other = "Privacy policy"

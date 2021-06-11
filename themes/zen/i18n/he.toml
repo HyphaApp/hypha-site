@@ -1,98 +1,98 @@
 [menu_title]
-other = "Main menu"
+other = "תפריט ראשית"
 
 [menu_home]
-other = "Home"
+other = "בית"
 
 [menu_mobile]
 other = "Menu"
 
 [pager_next]
-other = "Next"
+other = "הבא"
 
 [pager_prev]
-other = "Prev"
+other = "קודם"
 
 [taxo_tags]
-other = "Tags"
+other = "תגיות"
 
 [last_mod]
-other = "Updated:"
+other = "מעודכן:"
 
 [created]
-other = "Created:"
+other = "נוצר:"
 
 [search_placeholder]
-other = "Enter the terms you wish to search for."
+other = "הכנס מונחים לחיפוש"
 
 [search_title]
-other = "Search"
+other = "חיפוש"
 
 [search_loading]
-other = "Loading search index…"
+other = "טוען אינדקס חיפוש…"
 
 [string_at]
-other = "at"
+other = "...ב"
 
 [string_by]
-other = "by"
+other = "על יד"
 
 [string_follow]
-other = "follow"
+other = "עקוב אחרי"
 
 [string_in]
-other = "in"
+other = "בתוך"
 
 [string_on]
-other = "on"
+other = "על"
 
 [string_recent_content]
-other = "Recent content"
+other = "תוכן מעודכן"
 
 [string_see_also]
 other = "See also"
 
 [js_required]
-other = "You must have Javascript enabled to use this function."
+other = "javascript פונקציה זו חייבת"
 
 [contact_submitted]
-other = "Your message was sent."
+other = "הסר שלך נשלח"
 
 [contact_error]
-other = "There was an error sending the message."
+other = "קרתה שגיאה בשליחת המסר"
 
 [contact_name]
-other = "Name"
+other = "שם"
 
 [contact_name_placeholder]
-other = "Your name"
+other = "שמך"
 
 [contact_mail]
-other = "E-mail address"
+other = "כתובת אימייל"
 
 [contact_mail_placeholder]
-other = "Your e-mail address"
+other = "כתובת אימייל שלך"
 
 [contact_subject]
-other = "Subject"
+other = "נושא"
 
 [contact_subject_placeholder]
-other = "A short subject"
+other = "נושא מקוצר"
 
 [contact_message]
-other = "Message"
+other = "מסר"
 
 [contact_message_placeholder]
-other = "The messages goes here…"
+other = "…הכנס מסר כאן"
 
 [contact_submit]
-other = "Send message"
+other = "שליחת מסר"
 
 [contact_honypot]
-other = "Skip if you are a human"
+other = "דלג אם אתה בן אנוש"
 
 [lang_select_title]
-other = "Language selector"
+other = "בחירת שפה"
 
 [cookieconsent_message]
 other = "This website uses non essential cookies for tracking and analytics that you can accept or decline."
@@ -105,3 +105,4 @@ other = "Decline tracking"
 
 [privacy_policy]
 other = "Privacy policy"
+

@@ -49,6 +49,9 @@ other = "pada"
 [string_recent_content]
 other = "Konten Terkini"
 
+[string_see_also]
+other = "See also"
+
 [js_required]
 other = "Anda harus mengaktifkan Javascript untuk menggunakan fasilitas ini."
 
@@ -90,3 +93,15 @@ other = "Lewati jika anda manusia"
 
 [lang_select_title]
 other = "Pilihan Bahasa"
+
+[cookieconsent_message]
+other = "This website uses non essential cookies for tracking and analytics that you can accept or decline."
+
+[cookieconsent_accept]
+other = "Accept tracking"
+
+[cookieconsent_decline]
+other = "Decline tracking"
+
+[privacy_policy]
+other = "Privacy policy"

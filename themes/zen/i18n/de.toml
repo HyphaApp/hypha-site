@@ -49,6 +49,9 @@ other = "auf"
 [string_recent_content]
 other = "Aktuelle Inhalte"
 
+[string_see_also]
+other = "Siehe auch"
+
 [js_required]
 other = "Javascript muss aktiviert sein um dieses Kontaktformular zu nutzen."
 
@@ -90,3 +93,15 @@ other = "Überspringen, wenn du ein Mensch bist"
 
 [lang_select_title]
 other = "Sprachauswahl"
+
+[cookieconsent_message]
+other = "Diese Website nutzt nicht nicht essentielle Cookies für Tracking und Analysen, die Sie akzeptieren oder ablehnen können."
+
+[cookieconsent_accept]
+other = "Tracking akzeptieren"
+
+[cookieconsent_decline]
+other = "Tracking ablehnen"
+
+[privacy_policy]
+other = "Datenschutzrichtlinie"

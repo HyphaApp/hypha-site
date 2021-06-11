@@ -6,7 +6,7 @@ It uses HTML5 with a modern CSS grid and flex layout. Recent versions of all the
 
 Sass is processed with Hugo pipes. To make using npm optional I have added the stylesheets from the excellent sass plugin [typey](https://www.npmjs.com/package/typey) directly to the theme.
 
-![Lighthouse report](https://raw.githubusercontent.com/frjo/hugo-theme-zen/master/images/lighthouse_report.png)
+![Lighthouse report](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/lighthouse_report.png)
 
 
 ## Table of contents
@@ -26,6 +26,7 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 * [Multilingual](#multilingual)
 * [Search](#search)
 * [Contact form](#contact-form)
+* [Cookie consent](#cookie-consent)
 * [Dates](#dates)
 * [Podcast](#podcast)
 * [Shortcodes](#shortcodes)
@@ -41,6 +42,7 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 * A mobile menu
 * Analytics with Matamo (Piwik)
 * Automatic linting of css and js
+* Cookie consent
 * Contact form (PHP)
 * CSS grid and flex for layout
 * Gulp.js (only for sass/js lint)
@@ -135,17 +137,17 @@ Some performance tools will complain about to many files (js and css files are n
 
 ### On the large screen
 
-![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/master/images/tn.png)
+![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/tn.png)
 
 
 ### On the small screen
 
-![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/master/images/tn_mobil.png)
+![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/tn_mobil.png)
 
 
 ### The mobile menu
 
-![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/master/images/tn_mobil_menu.png)
+![screenshot](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/tn_mobil_menu.png)
 
 
 ## Configuration
@@ -159,6 +161,7 @@ theme: "zen"
 languageCode: "en-GB"       # Set your language code (only needed for none multilingual sites).
 
 params:
+  cookieConsent: true       # Show cookie consent form, default false.
   contact: "info@example.org"
   copyright: "This site is licensed under a 
               (https://creativecommons.org/licenses/by-sa/4.0/)."
@@ -181,9 +184,13 @@ params:
   mobileMenu: true          # Turn on a mobile menu on small screens.
   piwikSiteId:              # Matamo site id
   piwikTrackerUrl: ""       # Matamo url, schemaless and no slash on end (example.org/matamo).
+  plausibleSiteID: ""       # Plausible site id/domain.
+  plausibleTrackerURL: ""   # Plausible url, schemaless and no slash on end. Optional, defaults to "plausible.io/…"
   poweredby: true           # Show powered by hugo in footer
+  privacyPolicyUrl: ""      # If set will add link to cookie consent form.
+
   realfavicongenerator:     # If full set of favicons, site manifest etc. exists, default false.
-  safariPinnedColor:        # Hex color value, used in meta tags, default "#000000".
+  relatedposts: true        # Show related posts under a "See also" section, default false.
   searchLimit: 20           # Max number of search hits, default 20.
   sidebar: true             # Show a sidebar to the right
   submitted: true           # Show author and date information for a post.
@@ -207,6 +214,7 @@ params:
     type: episodic/serial   # Podcast type, defaults to episodic (iTunes).
     newfeed:                # Are you moving? Set the new feed url here (iTunes).
     cdn:                    # CDN url, no slash on end (https://cdn.example.org).
+    local: false            # Are the audio files local (true) or remote (false), default to true.
     preload: none/metadata/auto # Set on the HTML5 audio tag, defaults to "metadata".
 ```
 
@@ -232,7 +240,7 @@ Place your logo at `static/images/logo.png`. If you don't provide a logo, then t
 
 Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) then copy-paste the generated favicon files under `static`.
 
-Then set the "realfavicongenerator" param to true to add the needed meta tags. Also good to set the "themeColor" and "safariPinnedColor" params to correct colours.
+Then set the "realfavicongenerator" param to true to add the needed meta tags. Also good to set the "themeColor" param to correct colour.
 
 
 ### Layouts
@@ -283,7 +291,7 @@ Needed styles are in the `_zen.scss` file.
 
 ## Multilingual
 
-English, French, German, Norwegian, Portugis and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users.
+Arabic, English, French, German, Norwegian, Portugis and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users, thanks!
 
 A language selector will be included on sites with more than one language. Add `languageName` to your language configuration, this is what will be displayed in the selector.
 
@@ -353,6 +361,16 @@ Two types of spam protection is implemented. The form can only be posted after t
 Form validation is handled by HTML5 and there is some CSS to make it look nice.
 
 Javascript is used for spam protection and to display error/success messages.
+
+## Cookie consent
+
+Allow users to opt-in to tracking. Matomo and Google analytic are supported out of the box.
+
+See `assets/js/tracking.js` for example how to implement it.
+
+The name of the cookie set is "cookieconsent" and it can have the values "accept" or "decline" depending on what button the visitor clicks.
+
+![Lighthouse report](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/cookieconsent.png)
 
 
 ## Dates
@@ -455,7 +473,7 @@ Possible parameters are:
 * caption (only figure)
 * class
 * height
-* link (only figure)
+* link
 * size (only works if image is inside /assets dir)
 * src
 * title (only figure)
@@ -467,6 +485,18 @@ Only "src" is none optional but you really should set "alt" as well.
 * You can set a max width for images with parameter "imageMaxWidth". Only used for images where size, width and height is not set.
 * If width and height is not set the real dimensions of the image will be used.
 * If only width or only height is set the other value will be proportionally calculated.
+
+
+### File
+
+Creates a link to a file in static or in assets directory.
+
+Possible parameters are:
+
+* class
+* newtab (default false)
+* src
+* text
 
 
 ### Search
@@ -483,7 +513,7 @@ Creates a search page for the site, [see more above](#search).
 A simple, but useful, shortcode to wrap content in a div with a class. The content will be run through "markdownify".
 
 ```
-{{< wrapper class-name-you-want markdown >}}
+{{< wrapper class-name-you-want >}}
 The **content** that should be wrapped.
 
 Some more content.
@@ -595,7 +625,7 @@ To run the default gulp task, type:
 
 ## Getting help
 
-If you run into an issue that isn't answered by this documentation or the [`exampleSite`](https://github.com/frjo/hugo-theme-zen/tree/master/exampleSite), then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132). Feel free to tag me in your question, my forum username is [@frjo](https://discourse.gohugo.io/u/frjo/summary).
+If you run into an issue that isn't answered by this documentation or the [`exampleSite`](https://github.com/frjo/hugo-theme-zen/tree/main/exampleSite), then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132). Feel free to tag me in your question, my forum username is [@frjo](https://discourse.gohugo.io/u/frjo/summary).
 
 
 ## Credits
