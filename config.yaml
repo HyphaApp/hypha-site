@@ -9,20 +9,15 @@ removePathAccents: true
 paginate: 10
 paginatePath: "page"
 rssLimit: 20
-author:
-  name: "Your Name"
-  url: "https://example.org/somepage"
-  avatar: "path/to/some-image.jpg"
+disableKinds: ["taxonomy", "term"]
 
-outputFormats:
-  SearchIndex:
-    mediaType: "application/json"
-    baseName: "searchindex"
-    isPlainText: true
-    notAlternative: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 outputs:
-  home: ["HTML","RSS", "JSON", "SearchIndex"]
+  home: ["HTML"]
   section: ["HTML","RSS", "JSON"]
 
 params:
@@ -31,21 +26,15 @@ params:
   description: "Submission management software for open calls."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
-  feedlinks: true
+  feedlinks: false
   footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
-  mobileMenu: true
+  mobileMenu: false
   poweredby: false
   realfavicongenerator: true
   safariPinnedColor: "#ffffff"
   sidebar: false
   submitted: false
   themeColor: "#ffffff"
-
-menu:
-  main:
-    - Name: "Home"
-      weight: -10
-      URL: "/"
