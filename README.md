@@ -45,6 +45,7 @@ and deployed with:
 # Who uses Hypha?
 
 Thank you brave folks who choose to use Hypha <3:
+- [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
 - [Reset](https://www.reset.tech/)
 
