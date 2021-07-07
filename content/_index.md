@@ -93,7 +93,8 @@ To support organisations having ownership over their data, Hypha can be deployed
 ## Who uses Hypha?
 
 Right now these brave folks choose to use Hypha <3:
-
+                                                    
+- [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
 - [Reset](https://www.reset.tech/)
 
