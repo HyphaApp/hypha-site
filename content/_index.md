@@ -80,16 +80,24 @@ Hypha itself is built on many open source software projects. We use [Django](htt
 
 View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
+## Getting started with Hypha
+
+If you want to begin using Hypha, the best place to start is with [our documentation](https://docs.hypha.app/). If you think our documentation can be improved, you're welcome to submit improvements.
+
+[![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
+
 ### Building Hypha
 
 Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [development takes](https://github.com/HyphaApp/hypha/issues) place in the open.
 
 [![<HyphaApp>](https://circleci.com/gh/HyphaApp/hypha.svg?style=shield)](https://circleci.com/gh/HyphaApp/hypha)
-
+  
 ### Deploying Hypha
 
-To support organisations having ownership over their data, Hypha can be deployed [on Heroku](https://github.com/HyphaApp/hypha/wiki/Deployment:-Heroku), [using Docker](https://github.com/HyphaApp/hypha/wiki/Deployment:-Docker), or [with your own server](https://github.com/HyphaApp/hypha/wiki/Deployment:-Standalone-App).
-
+To support organisations having ownership over their data, Hypha can be deployed in a number of differe ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
+  
+Our [administration documentation](https://docs.hypha.app/administration) will help you keep up-to-date with new features and improvements.
+    
 ## Who uses Hypha?
 
 Right now these brave folks choose to use Hypha <3:
