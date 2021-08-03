@@ -52,7 +52,7 @@ Thank you brave folks who choose to use Hypha <3:
 # About the Hypha team
 
 Hypha is maintained by:
-- [Sarah Aoun](https://github.com/saoun) @ [Open Technology Fund](https://www.opentech.fund/)
+- [Di Luong](https://www.opentech.fund/about/people/di-luong/) @ [Open Technology Fund](https://www.opentech.fund/)
 - [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 - [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
 
