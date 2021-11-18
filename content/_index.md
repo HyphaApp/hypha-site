@@ -12,10 +12,10 @@ menu:
 # Hypha
 
 
-* [![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
-* ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
-* [![Discource forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
-* [![Zulip chat](https://img.shields.io/badge/chat-chat.hypha.app-brightgreen)](https://chat.hypha.app/)
+[![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
+[![Discource forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
+[![Zulip chat](https://img.shields.io/badge/chat-chat.hypha.app-brightgreen)](https://chat.hypha.app/)
 
 
 ## What is Hypha?
@@ -66,7 +66,7 @@ This means that the applications, and all associated information created is avai
 
 ## Privacy is important
 
-The Hypha code is regularly audited. It has many privacy and security features.
+The Hypha code is regularly audited and has many privacy and security features. The most recent audit was completed 2021-Aug, [available here](/reports/Radically_Open_Security_2021_Hypha.pdf). Big thank you to the [Open Technology Fund](https://www.opentech.fund) and [Radically Open Security](https://www.radicallyopensecurity.com/) for the last audit.
 
 ## Benefit from the powers of open source
 
@@ -95,7 +95,7 @@ Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [devel
 ### Deploying Hypha
 
 To support organisations having ownership over their data, Hypha can be deployed in a number of differe ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
-  
+  [
 Our [administration documentation](https://docs.hypha.app/administration) will help you keep up-to-date with new features and improvements.
     
 ## Who uses Hypha?
