@@ -95,27 +95,35 @@ Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [devel
 ### Deploying Hypha
 
 To support organisations having ownership over their data, Hypha can be deployed in a number of differe ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
-  [
+
 Our [administration documentation](https://docs.hypha.app/administration) will help you keep up-to-date with new features and improvements.
     
-## Who uses Hypha?
+## Who uses and contributes to Hypha?
+
+### Adopters
 
 Right now these brave folks choose to use Hypha <3:
-                                                    
+
+- [Digital Defenders Partnership](https://www.digitaldefenders.org/)
+- [Amateur Radio Digital Communications](https://www.ampr.org/)
 - [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
 - [Reset](https://www.reset.tech/)
 
-## About the Hypha team
-
-Hypha is maintained by:
+### Maintainers
 
 - [Sarah Aoun](https://github.com/saoun) @ [Open Technology Fund](https://www.opentech.fund/)
-- [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
+- [Eriol Fox](https://erioldoesdesign.github.io/) @ [Simply Secure](https://simplysecure.org/)
+- [Emily Carrigan](https://github.com/emlini)
+- [Allan Stanley](https://github.com/killapop)
 - [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
+- [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 
-With thanks to all the people who have contributed code & UX design to Hypha: <3
+### Contributers
 
+Big thanks to all the people who have contributed code & UX design to Hypha <3
+
+- [Open Technology Strategies](https://www.opentechstrategies.com)
 - [Maxwell Pearl](https://maxwellpearl.com/)
 - [Psycle](https://psycle.com/)
 - [Remote Inning](https://www.remoteinning.com/)
@@ -123,7 +131,7 @@ With thanks to all the people who have contributed code & UX design to Hypha: <3
 - [Throneless Technology](https://throneless.tech/)
 - [Torchbox](https://www.torchbox.com/)
 
-## Support Hypha
+### Supporters
 
 Hypha is an open source project made possible thanks to the support of sponsors.
 
@@ -132,25 +140,20 @@ Thank you to the following for their generosity: <3
 - [Open Technology Fund](https://www.opentech.fund/)
 - [Reset](https://www.reset.tech/)
 
-If you rely on Hypha, please consider becoming a sponsor to help those contributing code. Hypha can be supported by anyone and the money will be distributed directly to contributors.
+If you rely on Hypha, please consider supporting by contributing yourself or support those who already are. Hypha can be supported by anyone and the money will be distributed directly to contributors.
 
 You can provide general support via [Open Collective](https://opencollective.com/hypha) or [Liberapay](https://liberapay.com/hypha).
 
 You can sponsor specific issues via [Issuehunt](https://issuehunt.io/r/OpenTechFund/hypha). Thanks in advance <3
 
-[![Sponsor with Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/hypha)
 
-[![Sponsor with Open Collective](https://opencollective.com/hypha/tiers/backer.svg?avatarHeight=75&width=600)](https://opencollective.com/hypha)
-
-[![Find and sponsor issues](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/OpenTechFund/hypha)
-
-## Why "Hypha"?
+## Why the name "Hypha"?
 
 **[Hyphae](https://en.wikipedia.org/wiki/Mycorrhizal_network):** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources.
 
 Hopefully, Hypha helps it's users do the same.
 
-* Copyright (C) 2020 - Open Technology Fund
+* Copyright (C) 2021 - Open Technology Fund
 
 ## License
 
