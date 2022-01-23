@@ -14,60 +14,29 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  // stylelint-disable color-no-hex, color-named
   @extend %button--disabled;
   @include typeface(headings);
   @include margin-right(.75);
   @include margin-bottom(.75);
+  @include padding(.2 1);
   // Some styles don't apply to <a> links since they are inline elements by default.
   display: inline-block;
-  padding: 2px 10px;
-  // Address Firefox 4+ setting `line-height` on `input` using `!important` in
-  // the UA stylesheet. And prevent its "line-height: normal" rule below from
-  // breaking the "appearance: button" styling on the input elements.
-  line-height: inherit;
   text-decoration: none;
+  text-align: center;
   // Improve usability and consistency of cursor style between image-type `input` and others.
   cursor: pointer;
-  color: $button;
-  text-align: center;
-  background-image: linear-gradient(#f6f6f6, #e2e2e2);
-  border: 1px solid #e4e4e4;
-  border-left-color: #d2d2d2;
-  border-right-color: #d2d2d2;
-  border-bottom-color: #b4b4b4;
-  border-radius: 2px;
-
-  // stylelint-disable property-no-vendor-prefix
-  // Correct the inability to style clickable types in iOS and Safari.
-  -moz-appearance: button;
-  -webkit-appearance: button;
-
-  // Remove the inner border and padding in Firefox.
-  &::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-
-  // Restore the focus styles unset by the previous rule.
-  &:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
-  // sass-lint:enable property-no-vendor-prefix
+  color: var(--color-button-text);
+  background-color: var(--color-button);
+  border: 1px solid var(--color-button);
+  border-radius: $m-radius;
 
   &:hover,
   &:focus,
   &:active {
     // Override any link underlines and color changes.
     text-decoration: none;
-    color: $button;
-  }
-
-  &:active {
-    border-color: #555;
-    text-shadow: $button 0 -1px 0;
-    background: $grey-dark;
-    color: $text-bg;
+    color: var(--color-button);
+    background-color: var(--color-button-text);
   }
 }
 
@@ -75,14 +44,22 @@ button,
 .button,
 %button {
   &--small {
-    @include type-layout(xs, 1);
+    @include font-size(xs);
     @include margin-right(.3);
     @include margin-bottom(.3);
-    padding: 0 6px;
+    @include padding(.1 .5);
   }
 
-  &--variant-name {
-    // Add styles here.
+  &--outline {
+    color: var(--color-button);
+    background-color: var(--color-button-text);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--color-button-text);
+      background-color: var(--color-button);
+    }
   }
 }
 
@@ -91,9 +68,9 @@ button,
 %button--disabled[disabled] {
   // Re-set default cursor for disabled elements.
   cursor: default;
-  color: $button-disabled;
-  background-color: $grey-extra-light;
-  border-color: $grey-extra-light;
+  color: var(--color-button-disabled);
+  background-color: var(--color-grey-extra-light);
+  border: 1px solid var(--color-button-disabled);
   background-image: none;
   text-shadow: none;
 
@@ -101,6 +78,6 @@ button,
   &:focus,
   &:active {
     // Override any link underlines and color changes.
-    color: $button-disabled;
+    color: var(--color-button-disabled);
   }
 }

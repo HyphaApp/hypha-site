@@ -9,10 +9,21 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 ![Lighthouse report](https://raw.githubusercontent.com/frjo/hugo-theme-zen/main/images/lighthouse_report.png)
 
 
+## Version 2.0
+
+* Use of css4 variables. Colours are now used like this `var(--color-brand)`.
+* The colors, fonts and variables sass files are now in the root sass directory.
+* Use `site` instead of `.Site` and `$.Site`.
+
+### Todo
+
+* Implement more use of css4 variables.
+* Modernise the normalise css.
+* Make css4 variables change based on breakpoints. The zen-gutters e.g. can be set to 10px for mobile and increase to 20px for larger displays.
+
 ## Table of contents
 
 * [Features](#features)
-* [Demo](#demo)
 * [Minimum Hugo version](#minimum-hugo-version)
 * [Installation](#installation)
 * [Updating](#updating)
@@ -58,11 +69,6 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 * Search with FlexSearch.js
 * Sub theme support (Theme Components)
 * Umbrella JS 3 (tiny jQuery replacement, 2.5kB when gzipped)
-
-
-## Demo
-
-https://themes.gohugo.io/theme/hugo-theme-zen/
 
 
 ## Minimum Hugo version
@@ -175,6 +181,7 @@ params:
   jquery: true              # Add jQuery
   languageDir: ""           # Set ltr or rtl, defaults to ltr.
   logo: false               # Turn off the logo.
+  logoPath:                 # Relative path to site logo, defaults to "images/logo.png", no leading slash.
   mainSections:             # The sections you want to have listed on the front page.
     - "section1"            # Default to the section with most content if not set.
     - "section2"            # Set to empty if no section should be listed.
@@ -229,6 +236,13 @@ This is a part that almost everyone will like to customise in some manner. The t
 If you do not specify any sections in the "mainSections" param (see configuration above) it will list the section with the most posts. If you do not want to list anything, set it but leave the value empty.
 
 
+### Colours and variables
+
+This is another part that almost everyone will like to customise.
+
+They are found in the `assets/sass/init/_colors.scss` and `assets/sass/init/_variables.scss` files. Copy them to the root `assets/sass/init/` directory to set your own values.
+
+
 ### Logo
 
 Place your logo at `static/images/logo.png`. If you don't provide a logo, then the default theme logo will be used.
@@ -257,7 +271,14 @@ If the default sidebar is activated it will display each section with all its pa
 They are set up in `layouts/partials/menu.html`, `layouts/partials/mobilmenu.html` and `layouts/partials/sidebar.html`.
 
 
-### Styles and scripts
+### CSS grid for layout
+
+Modern CSS grid is the easiest and cleanest way to layout your pages.
+
+The CSS grid layout are in `assets/sass/layouts/_layouts.scss`. A lot can be done by just reordering "grid-template-rows".
+
+
+### Other styles and scripts
 
 Styles and scripts are processed with Hugo pipes that was added in Hugo 0.46.
 
@@ -271,12 +292,6 @@ The sass files are by default built for production, compressed with fingerprint.
 
 By setting the Hugo environment variable to "development" (default when running `hugo server`) they will instead be nested with sourcemaps.
 
-### CSS grid for layout
-
-Modern CSS grid is the easiest and cleanest way to layout your pages.
-
-The CSS grid layout are in `assets/sass/layouts/_layouts.scss`. A lot can be done by just reordering "grid-template-rows".
-
 
 ## Render hook templates
 
@@ -289,7 +304,7 @@ Needed styles are in the `_zen.scss` file.
 
 ## Multilingual
 
-Arabic, English, French, German, Norwegian, Portugis and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users, thanks!
+Arabic, Finnish, English, Hebrew, French, German, Norwegian, Portugis and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users, thanks!
 
 A language selector will be included on sites with more than one language. Add `languageName` to your language configuration, this is what will be displayed in the selector.
 
@@ -602,7 +617,7 @@ Node.js software you need. To install them run:
 
         npm run lint-theme
         npm run lint-project
-        nmp run list (project + theme)
+        nmp run lint (project + theme)
 
 
 ## Getting help

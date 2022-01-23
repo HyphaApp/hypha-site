@@ -8,9 +8,8 @@
   display: block;
   height: 0;
   overflow: visible;
-  // Remove background highlighting from <mark> in normalize.
   background-color: transparent;
-  color: $watermark;
+  color: var(--color-watermark);
   font-size: 75px;
   line-height: 1;
   text-align: center;
