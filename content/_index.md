@@ -29,7 +29,7 @@ Being built on open source software means you have the power to modify the Hypha
 
 ## How Hypha helps you manage your full submission pipeline
 
-Hypha is a provides a funding organiser with a way to manage the whole submission pipeline:
+Hypha is a provides a funding organiser with a way to manage the whole submission pipeline.
 
 ### Manage funds
 
