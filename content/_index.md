@@ -21,23 +21,23 @@ menu:
 
 ## What is Hypha?
 
-Hypha is an submission management platform for open funding calls. Funding organisations can manage the full funding application process - from creating a fund to ongoing project invoicing.
+Hypha is a submission management platform for open funding calls. Funding organisations can manage the full funding application process - from creating a fund to ongoing project invoicing.
 
 It can be hosted on your own Internet infrastructure, which means your data is yours.
 
-Being built on open source software means you have the power to modify the Hypha code. It can be tailored for your needs.
+Being built on open source software means you have the power to modify the Hypha code, so the application can be tailored for your needs.
 
 ## How Hypha helps you manage your full submission pipeline
 
-Hypha is a provides a funding organiser with a way to manage the whole submission pipeline.
+Hypha provides a funding organiser with a way to manage the whole submission pipeline.
 
 ### Manage funds
 
-It can manage single or multiple funding rounds - e.g. recurring rounds, annually, once-off.
+You can create and advertise requests for proposals for one or more funds.
 
 ### Create single or multiple rounds
 
-You can create single or multiple application rounds for your fund, depending on your organisations needs.
+You can create single or multiple application rounds for your fund (e.g., recurring rounds, annually, once-off), depending on your organisation's needs.
 
 ### Build forms
 
@@ -45,15 +45,15 @@ With Hypha you can create all the forms needed for your fund: application, revie
 
 ### Review and analyse submissions
 
-Applications can be reviewed by internal, external advisors, or both.
+Applications can be reviewed within the Hypha platform by internal or external reviewers, or both.
 
 ### Communicate with applicants
 
-Once the review process has completed Hypha helps you manage communications between you and applicants.
+Once the review process has completed, Hypha helps you manage communications between you and applicants.
 
 ### Manage post-application process
 
-You can also manage the post-application process important tasks using Hypha. We will be expanding to support invoicing and payments.
+You can also manage important tasks that are part of the post-application process using Hypha. For instance, development is currently underway to support invoicing and payments within Hypha.
 
 ### Automate workflows and integrate with other services
 
@@ -61,7 +61,7 @@ You can automate repeated workflows. You can also integrate Hypha with other aut
 
 ## Data ownership - your data is yours
 
-Unlike other submission management platforms Hypha is self-hosted.
+Unlike other submission management platforms, Hypha is self-hosted.
 
 This means that the applications, and all associated information created is available to you and your applicants on your own systems - not handed over to a company where it can be difficult to analyse the data.
 
@@ -83,7 +83,7 @@ View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming 
 
 ## Getting started with Hypha
 
-If you want to begin using Hypha, the best place to start is with [our documentation](https://docs.hypha.app/). If you think our documentation can be improved, you're welcome to submit improvements.
+If you want to begin using Hypha, the best place to start is with [our documentation](https://docs.hypha.app/). If you think our documentation can be improved, you're welcome to submit improvements--see our [Contributing to documentation](https://docs.hypha.app/contributing/contributing-to-documentation) page for more information on how to do this.
 
 [![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
 
