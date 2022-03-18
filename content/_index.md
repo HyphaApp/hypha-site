@@ -14,7 +14,7 @@ menu:
 {{< wrapper badges >}}
 [![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
-[![Discource forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
+[![Discourse forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
 [![Zulip chat](https://img.shields.io/badge/chat-chat.hypha.app-brightgreen)](https://chat.hypha.app/)
 {{< /wrapper >}}
 
@@ -95,7 +95,7 @@ Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [devel
   
 ### Deploying Hypha
 
-To support organisations having ownership over their data, Hypha can be deployed in a number of differe ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
+To support organisations having ownership over their data, Hypha can be deployed in a number of different ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
 
 Our [administration documentation](https://docs.hypha.app/administration) will help you keep up-to-date with new features and improvements.
     
@@ -120,7 +120,7 @@ Right now these brave folks choose to use Hypha <3:
 - [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
 - [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 
-### Contributers
+### Contributors
 
 Big thanks to all the people who have contributed code & UX design to Hypha <3
 
