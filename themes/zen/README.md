@@ -17,6 +17,9 @@ Sass is processed with Hugo pipes. To make using npm optional I have added the s
 * Use `site` instead of `.Site` and `$.Site`.
 * Use a default line-height of unitless 1.5. For headers it is set to 1.3.
 * Added `_extra.scss` where variables can be overridden.
+* The zen-gutters variable is now a calculated value based on window width.
+* Added max-line-width for readability, default to 70ch.
+* New shortcodes: button, svg, reflink and details.
 
 ### Todo
 
@@ -81,6 +84,26 @@ Hugo Extended version 0.88.1 or higher is required.
 
 ## Installation
 
+### Hugo module
+
+First of all, you need to turn your new or existing site into a hugo module.
+
+From the root of your site:
+
+```
+$ hugo mod init github.com/me/my-site
+```
+
+Afterwards, declare the `zen` theme module as a dependency of your site:
+
+From the root of your site:
+
+```
+$ hugo mod get github.com/frjo/hugo-theme-zen
+```
+
+### Git submodule
+
 You can download and unpack the theme manually from Github but it's easier to use git to clone the repo.
 
 From the root of your site:
@@ -99,6 +122,16 @@ git submodule add https://github.com/frjo/hugo-theme-zen.git themes/zen
 
 
 ## Updating
+
+### Hugo module
+
+From the root of your site:
+
+```
+hugo mod get -u github.com/frjo/hugo-theme-zen
+```
+
+### Git submodule
 
 From the root of your site:
 
@@ -211,7 +244,7 @@ params:
     category:
       name:                 # * Feed category (iTunes).
       subcategories: []     # Feed sub category (iTunes).
-    explicit: false/true    # Feed explicit settting, default to false (iTunes).
+    explicit: false/true    # Feed explicit setting, default to false (iTunes).
     author:                 # Feed author (iTunes).
     owner:
       name:                 # Feed owner name (iTunes).
@@ -246,6 +279,13 @@ This is another part that almost everyone will like to customise.
 They are found in the theme `assets/sass/_colors.scss` and `assets/sass/_variables.scss` files. Copy them to the root `assets/sass/` directory to set your own values.
 
 If you only want to override a few variables copy the theme `assets/sass/_extra.scss` to the root `assets/sass/_extra.scss` and set the new values there. Anything in the extra file will override values in the variables file.
+
+Examples of variables found in `assets/sass/_variables.scss`:
+
+* $base-font-size: 18px;
+* $max-content-width: 960px;
+* $max-line-width: 70ch;
+
 
 ### Logo
 
@@ -290,7 +330,7 @@ To customise a js or sass file, copy it to the root assets directory and edit it
 
 There is an `assets/sass/_custom.scss` file meant for your custom styles. Copy it to the root `assets/sass/_custom.scss` to use it.
 
-The default styles in `assets/sass/_zen.scss` are boring but functional. You can easily overide them completely by placing an empty file named "_zen.scss" in root assets/sass directory.
+The default styles in `assets/sass/_zen.scss` are boring but functional. You can easily override them completely by placing an empty file named "_zen.scss" in root assets/sass directory.
 
 The sass files are by default built for production, compressed with fingerprint.
 
@@ -308,7 +348,7 @@ Needed styles are in the `_zen.scss` file.
 
 ## Multilingual
 
-Arabic, Danish, Finnish, English, Hebrew, French, German, Norwegian, Portugis and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users, thanks!
+Arabic, Danish, Finnish, English, Hebrew, French, German, Norwegian, Portuguese and Swedish translations are included and you can easily add more to the `i18n` site directory. All but English and Swedish are contributed by users, thanks!
 
 A language selector will be included on sites with more than one language. Add `languageName` to your language configuration, this is what will be displayed in the selector.
 
@@ -386,7 +426,7 @@ If your server support php with the mail() command (very common) you can use the
 
 If you have a SPF record for your domain, make sure the web server is listed or other mail server may mark the mail as spam.
 
-Two types of spam protection is implemented. The form can only be posted after the user have moved the mouse or pressed the tab or enter key. The form have a "honypot" field that is invisible to humans but not to most spam boots. If that field is filled in the mail will not be sent.
+Two types of spam protection are implemented. The form can only be posted after the user moved the mouse or pressed the tab or enter key. The form has a "honeypot" field that is invisible to humans but not to most spam boots. If that field is filled in the mail will not be sent.
 
 Form validation is handled by HTML5 and there is some CSS to make it look nice.
 
@@ -452,12 +492,24 @@ podcast:
 
 Possible parameters are:
 
-* src
 * class
 * preload (none/metadata/auto, default metadata)
+* src
 * width (only video)
 
 The audio and video tags will be wrapped with a figure tag.
+
+
+### Button
+
+Creates a link with the class "button". If "newtab" is true the link will open in a new tab.
+
+Possible parameters are:
+
+* class
+* newtab
+* src
+* text
 
 
 ### Clear
@@ -483,10 +535,27 @@ Insert a html5 contact form, [see more above](#contact-form).
 {{< contact >}}
 ```
 
+### Details and Summary
+
+Insert a html5 contact form, [see more above](#contact-form).
+
+```
+{{< details summary="The summary text here" >}}
+The details text here.
+
+It can be long and **contain** markdown.
+{{< /details >}}
+```
+
+Possible parameters are:
+
+* class
+* summary
+
 
 ### Figure and Img
 
-Zen comes with a improved version of the built in "figure" shortcut and a very similar "img" shortcode.
+Zen comes with a improved version of the built in "figure" shortcut and a very similar "img" shortcode. Support for images both in "assets" and in "static".
 
 ```
 {{< figure src="/images/image.jpg" alt="Example image." caption="Lorem ipsum dolor sit amet." >}}
@@ -529,9 +598,45 @@ Possible parameters are:
 * text
 
 
+### Reflink
+
+Creates a link to an internal page.
+
+```
+{{< reflink "some-page.md" >}}
+```
+
+This will output:
+
+```
+<a href="/path/to/page/">The title of the page</a>
+```
+
+
+### SVG
+
+SVG shortcode with inline support. Support for images both in "assets" and in "static".
+
+```
+{{< svg src="/images/image.svg" alt="Example image." caption="Lorem ipsum dolor sit amet." >}}
+
+{{< img src="/images/image.svg" inline="true" >}}
+```
+
+Possible parameters are:
+
+* alt (not for inline)
+* caption
+* class
+* height (not for inline)
+* link
+* src
+* width (not for inline)
+
+
 ### Search
 
-Creates a search page for the site, [see more above](#search).
+Add a search form for the site, [see more above](#search).
 
 ```
 {{< search >}}
