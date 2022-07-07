@@ -65,10 +65,6 @@ Unlike other submission management platforms, Hypha is self-hosted.
 
 This means that the applications, and all associated information created is available to you and your applicants on your own systems - not handed over to a company where it can be difficult to analyse the data.
 
-## Privacy is important
-
-The Hypha code is regularly audited and has many privacy and security features. The most recent audit was completed 2021-Aug, [available here](/reports/Radically_Open_Security_2021_Hypha.pdf). Big thank you to the [Open Technology Fund](https://www.opentech.fund) and [Radically Open Security](https://www.radicallyopensecurity.com/) for the last audit.
-
 ## Benefit from the powers of open source
 
 Hypha is open source software. This means the license invites you to expand what can do Hypha, create add-on functionality not already available.
@@ -78,8 +74,6 @@ All we ask is you contribute these improvements back to the project so others ca
 ## Technology
 
 Hypha itself is built on many open source software projects. We use [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/).
-
-View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
 ## Getting started with Hypha
 
@@ -102,23 +96,16 @@ Our [administration documentation](https://docs.hypha.app/administration) will h
 ## Who uses and contributes to Hypha?
 
 ### Adopters
-
-Right now these brave folks choose to use Hypha <3:
-
-- [Digital Defenders Partnership](https://www.digitaldefenders.org/)
+  
 - [Amateur Radio Digital Communications](https://www.ampr.org/)
+- [Digital Defenders Partnership](https://www.digitaldefenders.org/)
 - [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
 - [Reset](https://www.reset.tech/)
 
-### Maintainers
-
-- [Sarah Aoun](https://github.com/saoun) @ [Open Technology Fund](https://www.opentech.fund/)
-- [Eriol Fox](https://erioldoesdesign.github.io/) @ [Simply Secure](https://simplysecure.org/)
-- [Emily Carrigan](https://github.com/emlini)
-- [Allan Stanley](https://github.com/killapop)
+### Lead Developer
+  
 - [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
-- [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 
 ### Contributors
 
