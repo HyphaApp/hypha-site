@@ -27,14 +27,15 @@ Developed internally by Open Technology Fund (OTF) and community partners, Hypha
 
 - **Manage the whole submission pipeline**. Hypha gives you the flexibility to create application forms you need for multiple funding rounds at the same time.
 - **Participatory and collaborative review process**. Managers can easily navigate through the platform to evaluate proposals and share their assessments with internal or external stakeholders. 
-- **Connect with applicants and grantees on the platform**. Integrate with other messaging services like Slack, Zulip, Signal, and Mailgun among others for notifications.
+- **Connect with applicants and grantees on the platform**. Send notifications via Slack and e-mail. There are also in-app notifications.
 - Since its inception, **transparency, security, and trust** have been core components of what has driven Hypha’s development: 
   - 100% open source. Improving the sustainability of open source software is a core component of the Hypha platform. 
+  - A number of extensive security audits have been preformed, the last one in 2021.
   - Implement best practices in Django security to prevent attacks and mitigate vulnerabilities.
   - Your data is yours. Hypha is self-hosted. This means that the applications and all associated information created is available to you and your   
     applicants on your own systems - not handed over to a company where it can be difficult to analyze the data.
   - Two-factor authentication to enhance your account security with the free Android or IOS authenticator apps.
-- **Comprehensive API**. Anything you see on screen, you can also do via an API call.
+- **Comprehensive API**. Used mainly for internal React app interface.
 
 **Hypha Community** We offer several virtual meeting spaces, including communication forums, chat room channels, and an open GitHub repository for new and current adopters. Join our forums to discuss new features and report bugs for continuous improvement of the platform. [Get Started](https://we.hypha.app/)
 
@@ -60,7 +61,4 @@ We are grateful to organizations that have chosen to implement Hypha and appreci
 - [Amateur Radio Digital Communications](https://www.ampr.org/)
 - [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
-
-* Copyright (C) 2021 - Open Technology Fund
-
 
