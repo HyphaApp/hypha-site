@@ -21,7 +21,9 @@ menu:
 
 ## What is Hypha? ## 
 
-Hypha is an open source submission management platform to receive and manage applications for funding. Developed internally by Open Technology Fund (OTF) and community partners, Hypha is an easy to use, secure, and privacy-focused application and project management system for application reviewers, prospective and current funding recipients, and project managers. Our goal is to facilitate open, accessible, and reproducible code to individuals and organizations working to build a more equitable world.
+Hypha is an open source submission management platform to receive and manage applications for funding. [Try Our Demo](https://sandbox.opentech.fund/)
+
+Developed internally by Open Technology Fund (OTF) and community partners, Hypha is an easy to use, secure, and privacy-focused application and project management system for application reviewers, prospective and current funding recipients, and project managers. Our goal is to facilitate open, accessible, and reproducible code to individuals and organizations working to build a more equitable world.
 
 - **Manage the whole submission pipeline**. Hypha gives you the flexibility to create application forms you need for multiple funding rounds at the same time.
 - **Participatory and collaborative review process**. Managers can easily navigate through the platform to evaluate proposals and share their assessments with internal or external stakeholders. 
@@ -33,9 +35,10 @@ Hypha is an open source submission management platform to receive and manage app
     applicants on your own systems - not handed over to a company where it can be difficult to analyze the data.
   - Two-factor authentication to enhance your account security with the free Android or IOS authenticator apps.
 - **Comprehensive API**. Anything you see on screen, you can also do via an API call.
-- **Hypha Community**. We offer several virtual meeting spaces as well as communication forums, chat room channels, and an open GitHub repository for new and current adopters. These channels are available to current and new users seeking technical support.
 
-Hypha's sandbox provides example page types and models. [Learn More](https://sandbox.opentech.fund/)
+**Hypha Community** We offer several virtual meeting spaces, including communication forums, chat room channels, and an open GitHub repository for new and current adopters. Join our forums to discuss new features and report bugs for continuous improvement of the platform. [Get Started](https://we.hypha.app/)
+
+You are welcome to test Hypha on our Sandbox Site. Enter the demo site and freely explore the potential of Hypha and its features. [Online Demo](https://sandbox.opentech.fund/)
 
 ## Who contributes to Hypha? ##
 
@@ -51,15 +54,12 @@ We are grateful to organizations that have chosen to implement Hypha and appreci
 - [Throneless Technology](https://throneless.tech/)
 - [Torchbox](https://www.torchbox.com/)
 
-## Who uses Hypha? ##
-
-Organizations that implemented their own instance of Hypha:
+## These organizations are already using Hypha ##
 
 - [Digital Defenders Partnership](https://www.digitaldefenders.org/)
 - [Amateur Radio Digital Communications](https://www.ampr.org/)
 - [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
-- [icipe](http://www.icipe.org/)
 
 * Copyright (C) 2021 - Open Technology Fund
 
