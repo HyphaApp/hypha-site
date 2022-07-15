@@ -21,26 +21,25 @@ menu:
 
 ## What is Hypha? ## 
 
-Hypha is an open source submission management platform to receive and manage applications for funding. [Try Our Demo](https://sandbox.opentech.fund/)
+Hypha is an open source submission management platform to receive and manage applications for funding. You are welcome to explore Hypha on our demo site. [Online Demo](https://sandbox.opentech.fund/)
 
 Developed internally by Open Technology Fund (OTF) and community partners, Hypha is an easy to use, secure, and privacy-focused application and project management system for application reviewers, prospective and current funding recipients, and project managers. Our goal is to facilitate open, accessible, and reproducible code to individuals and organizations working to build a more equitable world.
 
 - **Manage the whole submission pipeline**. Hypha gives you the flexibility to create application forms you need for multiple funding rounds at the same time.
 - **Participatory and collaborative review process**. Managers can easily navigate through the platform to evaluate proposals and share their assessments with internal or external stakeholders. 
 - **Connect with applicants and grantees on the platform**. Send notifications via Slack and e-mail. There are also in-app notifications.
-- **100% open source**. Improving the sustainability of open source software is a core component of the Hypha platform. 
-- Since its inception, **transparency, security, and trust** have been core components of what has driven Hypha’s development: 
-  - A number of extensive [security audits](https://www.opentech.fund/news/otf-conducts-security-audit-of-hypha/) have been completed, the last one in 2021.
-  - Implement best practices in Django security to prevent attacks and mitigate vulnerabilities.
+- **100% open source**. Improving the sustainability of open source software is a core component of Hypha. 
+- Since its inception, **transparency, security, and trust** have driven Hypha’s development: 
+  - A number of comprehensive [security audits](https://www.opentech.fund/news/otf-conducts-security-audit-of-hypha/) have been completed, the last one in 2021.
+  - We have implemented best practices in Django security to prevent attacks and mitigate vulnerabilities.
   - Two-factor authentication is available to enhance your platform security.
-- **Your data is yours**. Hypha is self-hosted. This means that the applications and all associated information created is available to you and your   
-    applicants on your own systems - not handed over to a company where it can be difficult to analyze the data.
+- **Your data is yours**. Hypha is self-hosted. This means that application data and all associated information is available on your own systems.
 - **Comprehensive API**. Used mainly for internal React app interface.
 
 ## Hypha Community ##
-We offer several virtual meeting spaces, including communication forums, chat room channels, and an open GitHub repository for new and current adopters. Join our forums to discuss new features and report bugs for continuous improvement of the platform. [Get Started](https://we.hypha.app/)
+We offer several virtual meeting spaces, including communication forums, chat room channels, and an open GitHub repository for new and current adopters. [Join our forums](https://we.hypha.app/) to discuss new features and report bugs for continuous improvement of the platform. [Get Started](https://github.com/HyphaApp/hypha)
 
-You are welcome to visit our sandbox. Enter the demo site and freely explore the potential of Hypha and its features. [Online Demo](https://sandbox.opentech.fund/)
+If you want to go further you are welcome to test Hypha on our demo site. Enter the demo site and freely navigate the platform's features. [Online Demo](https://sandbox.opentech.fund/)      
 
 ## Who contributes to Hypha? ##
 
