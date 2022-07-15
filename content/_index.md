@@ -19,130 +19,55 @@ menu:
 {{< /wrapper >}}
 
 
-## What is Hypha?
+## What is Hypha? ## 
 
-Hypha is a submission management platform for open funding calls. Funding organisations can manage the full funding application process - from creating a fund to ongoing project invoicing.
+Hypha is an open source submission management platform to receive and manage applications for funding. Developed internally by Open Technology Fund (OTF) and community partners, Hypha is an easy to use, secure, and privacy-focused application and project management system for application reviewers, prospective and current funding recipients, and project managers. Our goal is to facilitate open, accessible, and reproducible code to individuals and organizations working to build a more equitable world.
 
-It can be hosted on your own Internet infrastructure, which means your data is yours.
+- Manage the whole submission pipeline. Hypha gives you the flexibility to create application forms you need for multiple funding rounds at the same time.
+ 
+- Participatory and collaborative review process. Managers can easily navigate through the platform to evaluate proposals and share their assessments with internal or external stakeholders. 
 
-Being built on open source software means you have the power to modify the Hypha code, so the application can be tailored for your needs.
 
-## How Hypha helps you manage your full submission pipeline
+- Connect with applicants and grantees on the platform. Integrate with other messaging services like Slack, Zulip, Signal, and Mailgun among others for notifications.
 
-Hypha provides a funding organiser with a way to manage the whole submission pipeline.
 
-### Manage funds
+- Since its inception, transparency, security, and trust have been core components of what has driven Hypha’s development: 
+  - 100% open source. Improving the sustainability of open source software is a core component of the Hypha platform. 
+  - Implement best practices in Django security to prevent attacks and mitigate vulnerabilities.
+  - Your data is yours. Hypha is self-hosted. This means that the applications and all associated information created is available to you and your   
+    applicants on your own systems - not handed over to a company where it can be difficult to analyze the data.
+  - Two-factor authentication to enhance your account security with the free Android or IOS authenticator apps.
+  - Comprehensive API. Anything you see on screen, you can also do via an API call.
 
-You can create and advertise requests for proposals for one or more funds.
 
-### Create single or multiple rounds
+- Hypha Community. We offer several virtual meeting spaces as well as communication forums, chat room channels, and an open GitHub repository for new and current adopters. These channels are available to current and new users seeking technical support.
 
-You can create single or multiple application rounds for your fund (e.g., recurring rounds, annually, once-off), depending on your organisation's needs.
+Hypha's sandbox provides example page types and models. [Learn More](https://sandbox.opentech.fund/)
 
-### Build forms
+## Who contributes to Hypha? ##
 
-With Hypha you can create all the forms needed for your fund: application, review, deciding forms etc.
+Hypha is improved by a small community of developers, designers, and users. As an open source software with a [BSD 3-clause](https://github.com/HyphaApp/hypha/blob/main/LICENSE) license, we welcome any contribution to expand on what the platform can do and to create add-on functionality not already available. OTF currently partners with [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/), Lead Developer, to ensure the long-term maintenance, security, and sustainability of Hypha.
 
-### Review and analyse submissions
+We are grateful to organizations that have chosen to implement Hypha and appreciate any and all code, design, documentation, bug reports, and other forms of contributions:
 
-Applications can be reviewed within the Hypha platform by internal or external reviewers, or both.
-
-### Communicate with applicants
-
-Once the review process has completed, Hypha helps you manage communications between you and applicants.
-
-### Manage post-application process
-
-You can also manage important tasks that are part of the post-application process using Hypha. For instance, development is currently underway to support invoicing and payments within Hypha.
-
-### Automate workflows and integrate with other services
-
-You can automate repeated workflows. You can also integrate Hypha with other automation and notification services (Slack for notifications, Mailgun for email communications, etc)
-
-## Data ownership - your data is yours
-
-Unlike other submission management platforms, Hypha is self-hosted.
-
-This means that the applications, and all associated information created is available to you and your applicants on your own systems - not handed over to a company where it can be difficult to analyse the data.
-
-## Benefit from the powers of open source
-
-Hypha is open source software. This means the license invites you to expand what can do Hypha, create add-on functionality not already available.
-
-All we ask is you contribute these improvements back to the project so others can benefit.
-
-## Technology
-
-Hypha itself is built on many open source software projects. We use [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/).
-
-## Getting started with Hypha
-
-If you want to begin using Hypha, the best place to start is with [our documentation](https://docs.hypha.app/). If you think our documentation can be improved, you're welcome to submit improvements--see our [Contributing to documentation](https://docs.hypha.app/contributing/contributing-to-documentation) page for more information on how to do this.
-
-[![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
-
-### Building Hypha
-
-Hypha [source code is hosted on Github](https://github.com/HyphaApp/) and [development takes](https://github.com/HyphaApp/hypha/issues) place in the open.
-
-[![<HyphaApp>](https://circleci.com/gh/HyphaApp/hypha.svg?style=shield)](https://circleci.com/gh/HyphaApp/hypha)
-  
-### Deploying Hypha
-
-To support organisations having ownership over their data, Hypha can be deployed in a number of different ways including - Heroku, Docker or on your own stand-alone server. Our [Hypha deployment documentation](https://docs.hypha.app/deployment) provides in-depth information.
-
-Our [administration documentation](https://docs.hypha.app/administration) will help you keep up-to-date with new features and improvements.
-    
-## Who uses and contributes to Hypha?
-
-### Adopters
-  
-- [Amateur Radio Digital Communications](https://www.ampr.org/)
-- [Digital Defenders Partnership](https://www.digitaldefenders.org/)
-- [Digital Freedom Fund](https://digitalfreedomfund.org/)
-- [Open Technology Fund](https://www.opentech.fund/)
-- [Reset](https://www.reset.tech/)
-
-### Lead Developer
-  
-- [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
-
-### Contributors
-
-Big thanks to all the people who have contributed code & UX design to Hypha <3
-
-- [Open Technology Strategies](https://www.opentechstrategies.com)
-- [Maxwell Pearl](https://maxwellpearl.com/)
-- [Psycle](https://psycle.com/)
+- [Open Technology Strategies](https://www.opentechstrategies.com)                
 - [Remote Inning](https://www.remoteinning.com/)
+- [Maxwell Pearl](https://maxwellpearl.com/)
+- [Psycle](https://psycle.com/)                                                    
 - [Simply Secure](https://simplysecure.org/)
 - [Throneless Technology](https://throneless.tech/)
 - [Torchbox](https://www.torchbox.com/)
 
-### Supporters
+## Who uses Hypha? ##
 
-Hypha is an open source project made possible thanks to the support of sponsors.
+Organizations that implemented their own instance of Hypha:
 
-Thank you to the following for their generosity: <3
-
+- [Digital Defenders Partnership](https://www.digitaldefenders.org/)
+- [Amateur Radio Digital Communications](https://www.ampr.org/)
+- [Digital Freedom Fund](https://digitalfreedomfund.org/)
 - [Open Technology Fund](https://www.opentech.fund/)
-- [Reset](https://www.reset.tech/)
-
-If you rely on Hypha, please consider supporting by contributing yourself or support those who already are. Hypha can be supported by anyone and the money will be distributed directly to contributors.
-
-You can provide general support via [Open Collective](https://opencollective.com/hypha) or [Liberapay](https://liberapay.com/hypha).
-
-You can sponsor specific issues via [Issuehunt](https://issuehunt.io/r/OpenTechFund/hypha). Thanks in advance <3
-
-
-## Why the name "Hypha"?
-
-**[Hyphae](https://en.wikipedia.org/wiki/Mycorrhizal_network):** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources.
-
-Hopefully, Hypha helps it's users do the same.
+- [icipe](http://www.icipe.org/)
 
 * Copyright (C) 2021 - Open Technology Fund
 
-## License
 
-[BSD 3-clause](https://github.com/HyphaApp/hypha/blob/main/LICENSE)
