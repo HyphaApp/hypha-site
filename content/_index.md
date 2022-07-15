@@ -32,7 +32,7 @@ Hypha is an open source submission management platform to receive and manage app
   - Your data is yours. Hypha is self-hosted. This means that the applications and all associated information created is available to you and your   
     applicants on your own systems - not handed over to a company where it can be difficult to analyze the data.
   - Two-factor authentication to enhance your account security with the free Android or IOS authenticator apps.
-  - **Comprehensive API**. Anything you see on screen, you can also do via an API call.
+- **Comprehensive API**. Anything you see on screen, you can also do via an API call.
 - **Hypha Community**. We offer several virtual meeting spaces as well as communication forums, chat room channels, and an open GitHub repository for new and current adopters. These channels are available to current and new users seeking technical support.
 
 Hypha's sandbox provides example page types and models. [Learn More](https://sandbox.opentech.fund/)
