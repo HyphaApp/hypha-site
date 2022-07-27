@@ -9,17 +9,14 @@ $grey:                  lighten($black, 60%); // #999
 $grey-light:            lighten($black, 80%); // #ccc
 $grey-extra-light:      lighten($black, 93.33%); // #eee
 $white:                 #fff;
+$white-off              #F2F2F2;        
 
 $blue:                  #0072b9;
 $red:                   #c00;
 $green:                 #43a808;
 $yellow:                #fd0;
+$orange:                #BF5934;
 
-$brand:                 $nearblack;
-$brand-alt:             $grey;
-$brand-dark:            $grey-dark;
-
-// Colour map.
 $colors: (
   brand:                  $brand,
   brand-alt:              $brand-alt,
@@ -28,9 +25,9 @@ $colors: (
   text-bg:                $white,
   text-meta:              $grey-dark,
 
-  link:                   $black,
-  link-visited:           $black,
-  link-hover:             $brand,
+  link:                   $orange,
+  link-visited:           $orange,
+  link-hover:             $orange,
   link-active:            $red,
 
   border:                 $grey-light,
@@ -41,7 +38,7 @@ $colors: (
   autocomplete-select:    $white,
   autocomplete-select-bg: $blue,
 
-  body-bg:                $white,
+  body-bg:                $white-off,
   header-bg:              $brand,
   backdrop:               $grey-extra-light,
 
