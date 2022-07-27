@@ -9,7 +9,7 @@ $grey:                  lighten($black, 60%); // #999
 $grey-light:            lighten($black, 80%); // #ccc
 $grey-extra-light:      lighten($black, 93.33%); // #eee
 $white:                 #fff;
-$white-off              #F2F2F2;        
+$white-off:             #F2F2F2;        
 
 $blue:                  #0072b9;
 $red:                   #c00;
@@ -28,7 +28,7 @@ $colors: (
   link:                   $orange,
   link-visited:           $orange,
   link-hover:             $orange,
-  link-active:            $red,
+  link-active:            $orange,
 
   border:                 $grey-light,
   border-dark:            $nearblack,
