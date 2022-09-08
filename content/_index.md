@@ -47,7 +47,7 @@ Hypha is improved by a small community of developers, designers, and users. As a
 
 We are grateful to organizations that have chosen to implement Hypha and appreciate any and all code, design, documentation, bug reports, and other forms of contributions:
 
-- [Open Technology Strategies](https://www.opentechstrategies.com)                
+- [Open Tech Strategies](https://www.opentechstrategies.com)                
 - [Remote Inning](https://www.remoteinning.com/)
 - [Maxwell Pearl](https://maxwellpearl.com/)
 - [Psycle](https://psycle.com/)                                                    
