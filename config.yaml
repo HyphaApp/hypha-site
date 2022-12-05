@@ -30,7 +30,7 @@ params:
   footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
-  imageMaxWidth: 700
+  imageMaxWidth: 400
   mobileMenu: false
   poweredby: false
   realfavicongenerator: true
