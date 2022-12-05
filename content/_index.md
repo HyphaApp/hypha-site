@@ -34,7 +34,6 @@ Developed internally by Open Technology Fund (OTF) and community partners, Hypha
   - We have implemented best practices in Django security to prevent attacks and mitigate vulnerabilities.
   - Two-factor authentication is available to enhance your platform security.
 - **Your data is yours**. Hypha is self-hosted. This means that application data and all associated information is available on your own systems.
-- **Comprehensive API**. Used mainly for internal React app interface.
 
 ## Hypha Community ##
 We offer several virtual meeting spaces, including communication forums, chat room channels, and an open GitHub repository for new and current adopters. [Join our forums](https://we.hypha.app/) to discuss new features and report bugs for continuous improvement of the platform. [Get Started](https://github.com/HyphaApp/hypha)
