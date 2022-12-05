@@ -9,8 +9,6 @@ menu:
 
 ---
 
-# Hypha
-
 {{< wrapper badges >}}
 [![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
