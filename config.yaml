@@ -25,11 +25,11 @@ params:
   copyright: "Copyright (©) 2022 - Open Technology Fund"
   description: "Hypha is an open source submission management platform to receive and manage applications for funding."
   dateformat: "2 January, 2006"
-  favicon: "logo.png"
+  favicon: "apple-touch-icon.png"
   feedlinks: false
   footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
-  icon: "logo.png"
-  image: "logo.png"
+  icon: "apple-touch-icon.png"
+  image: "apple-touch-icon.png"
   imageMaxWidth: 400
   mobileMenu: false
   poweredby: false
