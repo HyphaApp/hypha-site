@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Hypha
 date: 2020-11-09T15:42:56+01:00
 description: "Hypha - the open source submission management software for open calls."
 menu:

@@ -1,7 +1,7 @@
 ---
-title: 
+title: "Hypha"
 baseURL: "https://www.hypha.app/"
-theme: "zen"
+theme: "github.com/frjo/hugo-theme-zen/v2"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
@@ -29,12 +29,10 @@ params:
   feedlinks: false
   footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
   icon: "apple-touch-icon.png"
-  image: "apple-touch-icon.png"
+  image: "images/logo-large.png"
   imageMaxWidth: 400
   mobileMenu: false
   poweredby: false
   realfavicongenerator: true
-  safariPinnedColor: "#ffffff"
   sidebar: false
   submitted: false
-  themeColor: "#ffffff"

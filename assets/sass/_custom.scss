@@ -3,6 +3,8 @@
 // Site custom styles
 
 .header {
+  @include margin-bottom(1);
+
   &__logo-image {
     width: 220px;
   }
