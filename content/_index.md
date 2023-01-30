@@ -62,6 +62,6 @@ We are grateful to organizations that have chosen to implement Hypha and appreci
 - [Amateur Radio Digital Communications](https://www.ampr.org/)
 - [Digital Defenders Partnership](https://www.digitaldefenders.org/)
 - [Digital Freedom Fund](https://digitalfreedomfund.org/)
-- [Prototype Fund](https://www.prototypefund.de/en/))
+- [Prototype Fund](https://www.prototypefund.de/en/)
 - [Open Technology Fund](https://www.opentech.fund/)
 
