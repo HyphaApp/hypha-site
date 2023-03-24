@@ -53,7 +53,7 @@ We are grateful to organizations that have chosen to implement Hypha and appreci
 - [Remote Inning](https://www.remoteinning.com/)
 - [Maxwell Pearl](https://maxwellpearl.com/)
 - [Psycle](https://psycle.com/)                                                    
-- [Simply Secure](https://simplysecure.org/)
+- [Superbloom](https://simplysecure.org/)
 - [Throneless Technology](https://throneless.tech/)
 - [Torchbox](https://www.torchbox.com/)
 
