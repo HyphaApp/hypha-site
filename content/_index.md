@@ -16,7 +16,7 @@ menu:
 
 {{< wrapper badges >}}
 [![Documentation](https://img.shields.io/badge/docs-hypha.app-purple)](https://docs.hypha.app/)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/HyphaApp/hypha)](https://github.com/HyphaApp/hypha/releases)
 [![Discourse forum](https://img.shields.io/badge/forum-we.hypha.app-orange)](https://we.hypha.app/)
 [![Zulip chat](https://img.shields.io/badge/chat-chat.hypha.app-brightgreen)](https://chat.hypha.app/)
 {{< /wrapper >}}
