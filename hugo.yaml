@@ -1,7 +1,7 @@
 ---
 title: "Hypha"
 baseURL: "https://www.hypha.app/"
-theme: "github.com/frjo/hugo-theme-zen/v2"
+theme: "github.com/frjo/hugo-theme-zen/v3"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
@@ -21,8 +21,8 @@ outputs:
   section: ["HTML"]
 
 params:
-  contact: "hello@@hypha.app"
-  copyright: "Copyright (©) 2022 - Open Technology Fund"
+  contact: "hello@hypha.app"
+  copyright: "Copyright (©) 2024 - Open Technology Fund"
   description: "Hypha is an open source submission management platform to receive and manage applications for funding."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
@@ -31,8 +31,10 @@ params:
   icon: "apple-touch-icon.png"
   image: "images/logo-large.png"
   imageMaxWidth: 400
+  logoWidth: 220
   mobileMenu: false
   poweredby: false
   realfavicongenerator: true
   sidebar: false
+  sitename: false
   submitted: false

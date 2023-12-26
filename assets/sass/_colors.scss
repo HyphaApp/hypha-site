@@ -8,6 +8,7 @@ $grey-dark:             lighten($black, 40%); // #666
 $grey:                  lighten($black, 60%); // #999
 $grey-light:            lighten($black, 80%); // #ccc
 $grey-extra-light:      lighten($black, 93.33%); // #eee
+$nearwhite:             lighten($black, 97%); // #f7f7f7
 $white:                 #fff;
 
 $blue:                  #0072b9;
@@ -21,12 +22,14 @@ $orange-light:          #ec5b34;
 
 $brand:                 $nearblack;
 $brand-alt:             $grey;
+$brand-light:           $grey-light;
 $brand-dark:            $grey-dark;
 
 // Colour map.
 $colors: (
   brand:                  $brand,
   brand-alt:              $brand-alt,
+  brand-light:            $brand-light,
   brand-dark:             $brand-dark,
   text:                   $black,
   text-bg:                $white,
@@ -37,28 +40,33 @@ $colors: (
   link-hover:             $orange-light,
   link-active:            $orange-light,
 
-  border:                 $grey-light,
-  border-dark:            $nearblack,
+  link-inverted:          $white,
+  link-visited-inverted:  $white,
+  link-hover-inverted:    $white,
+  link-active-inverted:   $red,
+
+  border:                 $brand,
+  border-light:           $brand-light,
+  border-dark:            $brand-dark,
 
   autocomplete:           $black,
   autocomplete-bg:        $white,
   autocomplete-select:    $white,
   autocomplete-select-bg: $blue,
 
-  body-bg:                $grey-extra-light,
-  header-bg:              $brand,
+  body-bg:                transparent,
+  header-bg:              transparent,
+  footer-bg:              transparent,
   backdrop:               $grey-extra-light,
 
   mobile-menu:            $brand,
   mobile-menu-cover:      rgba($black, .2),
 
   button:                 $brand,
-  button-hover:           $brand-dark,
+  button-hover:           $brand-alt,
   button-text:            $white,
   button-text-hover:      $white,
   button-disabled:        $grey,
-
-  form-error:             $red,
 
   mark-highlight:         $red,
   mark-bg:                $yellow,
@@ -67,12 +75,12 @@ $colors: (
 
   preview-bg:             lighten($yellow, 43%),
 
-  row-stripe:             $white,
-  row-disabled:           $grey-light,
+  row-header:             transparent,
+  row-odd:                $nearwhite,
+  row-even:               transparent,
 
   status:                 $green,
   status-bg:              lighten($green, 62%),
-  status-highlight:       $black,
   warning:                $black,
   warning-bg:             lighten($yellow, 45%),
   warning-border:         $yellow,
@@ -84,4 +92,6 @@ $colors: (
   headings:               $nearblack,
 
   code:                   $nearblack,
+
+  highlight:              $brand-alt,
 );

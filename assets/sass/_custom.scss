@@ -2,16 +2,6 @@
 
 // Site custom styles
 
-.header {
-  @include margin-bottom(1);
-
-  &__logo-image {
-    width: 220px;
-  }
-}
-
 .badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  --gap: 1rem;
 }
